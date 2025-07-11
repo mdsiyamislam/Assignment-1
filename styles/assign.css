@@ -43,3 +43,26 @@ nav{
     background-image: url(../Assets/Hero-bg.png);
     padding: 0px 0px 200px 0px;
 }
+/* action style */
+.action{
+    display: flex;
+    margin: 115px 159px 0px 141px;
+    justify-content: space-between;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.action-sub-tital{
+    max-width: 517px;
+}
+.action-sub-tital{
+    font-size: 24px;
+    color: #7d7d86;
+}
+.action-pic{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
