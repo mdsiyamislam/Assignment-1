@@ -66,3 +66,36 @@ nav{
     height: 328px;
     border-radius: 48px;
 }
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* productive */
+.productive{
+    background-color: #9592f1d2 ;
+    border-radius: 24px;
+    padding: 50px 142px;
+    margin-top: 116px;
+}
+.productive-contant{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+}
+.item{
+    width: 162px;
+    font-size:80px ;
+    color: #4E47FF;
+    height: 97px;  
+}
+.item-description{
+    font-size: 20px;
+    width: 120px;
+    height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+}
