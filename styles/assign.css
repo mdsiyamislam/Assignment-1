@@ -50,7 +50,7 @@ nav{
 .header{
     background-image: url(../Assets/Hero-bg.png);
     padding: 0px 0px 200px 0px;
-    margin: 0px;
+    margin-top: 0%;
 }
 /* action style */
 .action{
@@ -114,6 +114,10 @@ main section{
     color: rgba(0, 0, 0, 0.5);
 }
 /* user say */
+.r-hea{
+    font-size: 42px;
+    font-weight: bold;
+}
 .star{
     display: flex;
     width: 16.67px;
@@ -122,18 +126,26 @@ main section{
     
 }
 .reviw-container{
-    display: flex;
+    justify-content:flex-;
     gap: 20px;
     padding: 105px 24px 94px;
 }
-.rivews{
+.made{
+    display: flex;
+}
+.rivews{ 
+    display: flex;
     padding: 20px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     border-radius: 14px;
 }
 .avter-container{
-    display: flex;
-    padding: 24px;
+    display: flex; 
+      padding: 24px;
+    
+}
+.avter-pic{
+    border-radius: 50%;
 }
 /* better */
 .better{
@@ -143,9 +155,10 @@ main section{
     /* padding: 71px 150px; */
     box-shadow: 0px 4px 4px 0px;color: rgba(0, 0, 0, 0.25);
     border-radius: 14px;
+    padding-bottom: 71px;
 }
 .ber-button{
-    margin: 20px 146px;
+    margin: 20px  146px;
 }
 .better-description{
     color: rgba(0, 0, 0, 0.5);
@@ -160,6 +173,7 @@ main section{
     width: 840px;
     height: 364.77px;
     border-radius: 48px;
+
 }
 .secondary-bg{
     margin: 96.23px 138px ;
@@ -169,26 +183,55 @@ main section{
 .section-colomn{
     width: 50%;
 }
-.box-set input[type="text"], input[type="email"], textarea{
-    height: 30px;
+.box-set{
+    margin-bottom: 15px;
+font-family: Arial, sans-serif;
+padding-right: 138px;
+}
+input[type="text"], input[type="email"], textarea{
+    
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 1);
     display: block;
     width: 100%;
     padding: 20px 217px 20px 32px;
-    margin: 51px;
-     border: 1px;
-     box-shadow: 0px 4px 4px 0px ;
+border: none;
+    margin-bottom: 19px;
+     box-shadow:0px 5px 5px 0px rgba(233, 226, 226, 0.5);
     
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+
 }
 .box-tital{
     font-size: 97px;
     font-weight: bold;
 }
 footer{
+    padding: 104px 455px;
     
-    padding: 1
 }
-.logo-font{
-    max-width: 50%;
+.logo{
+    text-align: center;
+    color: rgba(78, 71, 255, 1);
+    font-weight: 291px;
+    font-size: 100px;
+}
+.logo-dic{
+    text-align: center;
+    font-weight: 531px;
+    color: rgba(137, 135, 161, 1);
+
+}
+.logo-itmes{
+    text-align: center;
+    gap: 48px;
+    font-weight: 45px;
+    color: rgba(137, 135, 161, 1);
+    
+}
+a{
+    text-decoration: none;
 }
