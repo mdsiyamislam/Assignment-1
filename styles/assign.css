@@ -31,6 +31,9 @@ nav{
     border-radius: 10px;
     border:none
 }
+#btn-cen{
+    text-align: center;
+}
 /* banner style */
 .banner-description{
     font-size: 65px;
@@ -42,6 +45,7 @@ nav{
 .header{
     background-image: url(../Assets/Hero-bg.png);
     padding: 0px 0px 200px 0px;
+    margin: 0px;
 }
 /* action style */
 .action{
@@ -66,17 +70,22 @@ nav{
     height: 328px;
     border-radius: 48px;
 }
+.text-center{
+    text-align: center;
+}
 /* main */
 main{
     max-width: 1140px;
     margin: 0 auto;
 }
 /* productive */
+main section{
+    margin-top: 125px;
+}
 .productive{
     background-color: #9592f1d2 ;
     border-radius: 24px;
     padding: 50px 142px;
-    margin-top: 116px;
 }
 .productive-contant{
     text-align: center;
@@ -98,4 +107,52 @@ main{
     width: 120px;
     height: 24px;
     color: rgba(0, 0, 0, 0.5);
+}
+/* user say */
+.star{
+    display: flex;
+    width: 16.67px;
+    height: 15.85px;
+    justify-items: center;
+    
+}
+.reviw-container{
+    display: flex;
+    gap: 20px;
+    padding: 105px 24px 94px;
+}
+.rivews{
+    padding: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+.avter-container{
+    display: flex;
+    padding: 24px;
+}
+/* better */
+.better{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* padding: 71px 150px; */
+    box-shadow: 0px 4px 4px 0px;color: rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+.ber-button{
+    margin: 20px 146px;
+}
+.better-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight:487px ;
+    
+}
+.better-titel{
+    font-size: 50px;
+    font-weight: bold;
+}
+.better-pic{
+    width: 840px;
+    height: 364.77px;
+    border-radius: 48px;
 }
